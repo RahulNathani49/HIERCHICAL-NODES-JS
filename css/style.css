@@ -1,0 +1,30 @@
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+    li{
+        list-style: square;
+        padding: 5px;
+        
+        list-style: none;
+    }
+    button{
+        cursor: pointer;
+        margin-left: 10px;
+        
+    }
+    ul{
+        overflow: auto;
+        width: auto;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+       
+    }
+    li{
+        background-color: #bddaef;
+        padding: 14px;
+    }
+    
+    .bordnone{
+        border: none!important;
+    }
