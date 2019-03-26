@@ -5,8 +5,9 @@
     li{
         list-style: square;
         padding: 5px;
-        
         list-style: none;
+                border-left: 1px solid black;
+        border-bottom: 1px solid black;
     }
     button{
         cursor: pointer;
@@ -16,8 +17,7 @@
     ul{
         overflow: auto;
         width: auto;
-        border-left: 1px solid black;
-        border-bottom: 1px solid black;
+
        
     }
     li{
